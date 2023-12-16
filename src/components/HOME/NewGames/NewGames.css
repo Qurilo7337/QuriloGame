@@ -1,0 +1,110 @@
+.SSA_24px_font{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.SSA_21px_font{
+    font-size: 21px;
+    line-height: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.SSA_15px_font{
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: normal;
+}
+
+/* YourComponent.css */
+/* YourComponent.css */
+.SSA_NG_Image_container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .SSA_live-badge-green {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #33b040; /* Set your desired background color */
+    color: white; /* Set your desired text color */
+    font-size: 12px;
+    z-index: 2;
+    border-radius: 4px;
+  }
+  
+  .SSA_NG_overlay {
+    position: relative;
+  }
+  
+  .SSA_NG_overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -60%);
+    /* opacity: 0; */
+    display:none;
+  }
+  
+  .SSA_NG_Image_container:hover .SSA_NG_overlay-content {
+    /* opacity: 1; */
+    display:block;
+    
+    z-index: 3;
+    
+  }
+  
+  .SSA_NG_play-icon {
+   
+    color: white;
+    cursor: pointer;
+    z-index: 4;
+    position: relative;
+    pointer-events: none; /* Disable pointer events on the play icon */
+  }
+  
+  .SSA_NG_Image_container:hover .SSA_NG_play-icon {
+    pointer-events: auto; /* Enable pointer events on hover */
+  }
+  
+  .SSA_SSA_NG_overlay-text {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(222, 222, 222);
+    z-index: 1;
+  }
+  
+
+   .SSA_NG_Image_container:hover .SSA_live-badge , .SSA_NG_Image_container:hover img , .SSA_NG_Image_container:hover .SSA_SSA_NG_overlay-text   {
+    filter: brightness(30%); /* Adjust brightness for the black SSA_NG_overlay effect */
+  }
+
+   .SSA_NG_overlay {
+    filter: brightness(100%); /* Adjust brightness for the black SSA_NG_overlay effect */
+  }
+  /* .ListItem-SSA_NG_overlay .ListItem-Play-Button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin: auto 0;
+    background-color: #ff0960;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all .3s ease-in-out
+} */
+

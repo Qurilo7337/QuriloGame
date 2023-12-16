@@ -1,0 +1,112 @@
+/* App.css */
+.SSA_font_32px{
+  font-size: 42px;
+    line-height: 120%;
+    font-weight: 800;
+    letter-spacing: normal;
+}
+
+.SSA_font_16px{
+  font-size: 21px;
+    line-height: 120%;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.SSA_font_14px{
+  font-size: 18px;
+    line-height: 120%;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.SSA_font_11px{
+  font-size: 14px;
+    line-height: 120%;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.SSA_slider_demobtn{
+  
+  border-radius:22px;
+  background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.slick-next{
+  right: 0px;
+}
+
+.slideContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  height: 100%;
+}
+
+.slideImage {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.centerSlide {
+  transform: scale(
+    1
+  ); /* Adjust the scale for highlighting the center slide */
+  transition: transform 0.5s;
+  border-radius: 20px;
+}
+
+.sideSlide {
+  transform: scale(0.7); /* Adjust the scale for the left and right slides */
+  transition: transform 0.5s;
+  opacity: 0.7; /* Adjust the opacity for the non-active slides */
+}
+
+.slick-prev {
+  left: -30px; /* Adjust the position of the previous arrow as needed */
+}
+
+.slick-next {
+  right: -30px; /* Adjust the position of the next arrow as needed */
+}
+
+@media (max-width: 768px) {
+  .SSA_font_32px{
+    font-size: 28px;
+      line-height: 120%;
+      font-weight: 800;
+      letter-spacing: normal;
+  }
+  .SSA_font_16px{
+    font-size: 16px;
+      line-height: 120%;
+      font-weight: 600;
+      letter-spacing: normal;
+  }
+  
+.SSA_font_11px{
+  font-size: 11px;
+    line-height: 120%;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+.SSA_font_14px{
+  font-size: 12px;
+    line-height: 120%;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+  
+}
+.gradient-bg1 {
+  background-image: linear-gradient(to right, #4A0282, #5110A0, #632AD9);
+}
+.gradient-bg2 {
+  background-image: linear-gradient(to right, #8b11b6, #550e6e, #2d053b);
+}

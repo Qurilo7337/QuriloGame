@@ -1,0 +1,22 @@
+.SSA_live-badge-left {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #fe9b00, #ff0960); /* Set your desired background color */
+    color: white; /* Set your desired text color */
+    font-size: 12px;
+    z-index: 2;
+  
+}
+.SSA_live-badge-right{
+    position: absolute;
+    font-weight: 600;
+    top: 5px;
+    right: 0px;
+    background-image: linear-gradient(to right, #fe9b00, #ff0960);/* Set your desired background color */
+    color: white; /* Set your desired text color */
+    font-size: 12px;
+    z-index: 2;
+
+}

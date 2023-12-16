@@ -1,0 +1,69 @@
+export const TopGamesDATA=[{
+    img:"https://cdn.hrzn.cloud/game/7cceaaf5-58c8-4a94-9eac-fe1e29c896aa.jpeg",
+    text:"CRICKET",
+    badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/2309fd2b-90d9-4f95-a63a-9e6ff3e048e0.svg",
+  text:"FOOTBALL",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/011bba05-8122-44f4-9b32-824b1ee3dc68.jpeg",
+  text:"E-CRICKET",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/b80ef950-6c75-4dff-bbe6-7c783660490a.svg",
+  text:"TENNIS",
+  badge:"New"
+},
+{
+  img:"https://cdn.hrzn.cloud/game/a522779c-e253-4d1b-80ad-42926e31f909.jpeg",
+  text:"TABLE TENNIS",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/ba574d4a-1537-4ba8-abc8-2f3c4fad4c7e.jpeg",
+  text:"BASKETBALL",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/17cbf6c8-0e15-4fe3-88ff-1599e23c1880.jpeg",
+  text:"VOLLEYBALL",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/e7449262-86a9-4527-94af-b17ddce6bcdd.jpeg",
+  text:"ICE HOCKEY",
+  badge:"New"
+},
+{
+    img:"https://cdn.hrzn.cloud/game/4bb00bd7-193e-41b9-9126-e948274fc6e2.jpeg",
+    text:"CRICKET",
+    badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/fff64465-a3d1-4560-a182-91a6116d345f.jpeg",
+  text:"FOOTBALL",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/16d8fbfa-fdec-4788-a3c7-1dd9326bf533.jpeg",
+  text:"E-CRICKET",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/bf30dc03-257f-49be-8117-fc0d52af6d2a.jpeg",
+  text:"TENNIS",
+  badge:"New"
+},
+{
+  img:"https://cdn.hrzn.cloud/game/eb98e480-c40e-4840-a41e-91841fafb8a1.svg",
+  text:"TABLE TENNIS",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/0501585f-c5ec-490b-bfd7-48f509855efa.jpeg",
+  text:"BASKETBALL",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/3097398d-a18d-497b-9f7d-47d098f2bdf7.jpeg",
+  text:"VOLLEYBALL",
+  badge:"New"
+},{
+  img:"https://cdn.hrzn.cloud/game/8313aed2-407b-42b0-a946-f4654ad9b2e1.svg",
+  text:"ICE HOCKEY",
+  badge:"New"
+}
+]

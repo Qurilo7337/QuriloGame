@@ -1,0 +1,12 @@
+.SSA_fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; 
+    background-color: #007bff;
+    color: white; 
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

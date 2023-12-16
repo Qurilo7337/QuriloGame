@@ -1,0 +1,39 @@
+.SSA_colorGrey{
+    color: #90a2bd !important;
+}
+.SSA_Font_15px{
+    font-size: 15px !important;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 140%;
+}
+
+.SSA_Font_24px{
+    margin-bottom: 8px;
+    font-weight: 500;
+    letter-spacing: normal;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.SSA_footer_transclusentBtn{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+
+.SSA_footer_transclusentBtn:hover{
+    background-color: rgba(141, 187, 246, 0.2);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/*--------------------copyrightcontent css------------------*/
+.SSA_copyrightcontent_Font12px{
+    color: #90a2bd;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -.02em;
+
+}
